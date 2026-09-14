@@ -1,0 +1,17 @@
+﻿# Python
+webapp/backend/venv/
+__pycache__/
+*.pyc
+webapp/backend/encodings_cache.pkl
+
+# Env files
+webapp/backend/.env
+webapp/frontend/.env
+
+# Node
+webapp/frontend/node_modules/
+webapp/frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
