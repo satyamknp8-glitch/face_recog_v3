@@ -1,0 +1,9 @@
+.date-select {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  padding: 10px 14px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  border-radius: 2px;
+}

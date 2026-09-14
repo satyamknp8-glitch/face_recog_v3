@@ -1,8 +1,12 @@
-﻿# Python
+# Python
 webapp/backend/venv/
 __pycache__/
 *.pyc
 webapp/backend/encodings_cache.pkl
+webapp/backend/attendance.db
+webapp/backend/known_faces/*.jpg
+webapp/backend/known_faces/*.jpeg
+webapp/backend/known_faces/*.png
 
 # Env files
 webapp/backend/.env
@@ -11,6 +15,7 @@ webapp/frontend/.env
 # Node
 webapp/frontend/node_modules/
 webapp/frontend/dist/
+**/node_modules/
 
 # OS
 .DS_Store
