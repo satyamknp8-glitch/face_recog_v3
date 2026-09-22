@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import LineWaves from '../components/LineWaves';
+import LiquidChrome from '../components/LiquidChrome';
 import './Landing.css';
 
 const STEPS = [
@@ -30,22 +30,14 @@ export default function Landing() {
     <div className="landing">
       <section className="hero">
         <div className="hero-bg">
-          <LineWaves
-            speed={1.6}
-            innerLineCount={32}
-            outerLineCount={36}
-            warpIntensity={1.8}
-            rotation={-126}
-            edgeFadeWidth={0.25}
-            colorCycleSpeed={2}
-            brightness={0.2}
-            color1="#ffffff"
-            color2="#ffffff"
-            color3="#ffffff"
-            enableMouseInteraction
-            mouseInfluence={2}
-          />
-        </div>
+          <LiquidChrome
+  baseColor={[0.25, 0.22, 0.3]}
+  speed={0.3}
+  amplitude={0.4}
+  frequencyX={3}
+  frequencyY={3}
+  interactive
+/>        </div>
         <div className="hero-scrim" />
         <div className="container hero-content">
           <span className="hero-eyebrow">Local face recognition, self-hosted</span>
